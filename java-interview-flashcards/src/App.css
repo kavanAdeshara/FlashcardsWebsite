@@ -1,0 +1,88 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+}
+
+body {
+  background-image: url("https://www.pixelstalk.net/wp-content/uploads/images6/Lofi-Wallpapers-Desktop.jpg");
+  background-size: cover;
+  background-color: #36486b;
+  display: flex;
+}
+
+.flashcard-container {
+  align-items: center;
+  padding-top: 3em;
+}
+
+.flashcard {
+  width: 700px;
+  height: 400px;
+}
+
+.flashcard h2 {
+  padding-top: 2em;
+  padding-bottom: 10em;
+  padding-left: 3em;
+  padding-right: 3em;
+  opacity: 1;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.flashcard-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flashcard.flipped .flashcard-inner{
+  transform: rotateX(180deg);
+}
+
+.front-side, .back-side {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.front-side {
+  background-color: rgba(175, 23, 112, 0.75);
+}
+
+.back-side {
+  background-color: rgba(22, 153, 201, 0.75);
+  transform: rotateX(180deg);
+}
+
+.next-button {
+  margin-top: 2em;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  padding: 2%;
+  font-size: 1.3rem;
+  border-radius: 25px;
+  background-color: rgba(227, 17, 160, 0.5);
+  color: white;
+}
+
+
+
+
+
