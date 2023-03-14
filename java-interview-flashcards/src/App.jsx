@@ -77,7 +77,7 @@ function App() {
     }
 
     setIsPrevious(true);
-    setUserAnswer("");
+    setUserAnswer("Type your answer here");
     setButtonColor("blueviolet");
   }
 
@@ -97,7 +97,7 @@ function App() {
     }
 
     setIsNext(true);
-    setUserAnswer("");
+    setUserAnswer("Type your answer here");
     setButtonColor("blueviolet");
   }
 
@@ -131,7 +131,7 @@ function App() {
     setIsNext(true);
     setIsPrevious(false);
     setIsSmallAnswer(false);
-    setUserAnswer("");
+    setUserAnswer("Type your answer here");
     setButtonColor("blueviolet");
 
     if (currentQuestion.includes("One/two word answer")) {
@@ -180,9 +180,7 @@ function App() {
       </div>
 
       <div className="input-container" style={{visibility: isSmallAnswer? 'visible' : 'hidden'}}>
-        <h2>Guess the answer</h2>
-        
-        <input type="text" value={userAnswer} onClick={handleTextClick} onChange={handleChange}/>
+        <input className="user-field" type="text" value={userAnswer} onClick={handleTextClick} onChange={handleChange}/>
         
         <button className='submit-button' onClick={handleSubmit} style={{backgroundColor: buttonColor}}>
           Submit
