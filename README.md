@@ -67,7 +67,7 @@ Here's a walkthrough of implemented user stories:
 <img src='flashcards-demo-2.gif' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  ## Required Features
+GIF created with LICEcap
 
 
 ## License
