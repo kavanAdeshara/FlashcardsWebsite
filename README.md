@@ -59,7 +59,7 @@ The following **additional** features are implemented:
 
 * [x] The next and previous button disappear if a user reaches end of questions in either way.
 * [x] The color of shuffle cards button changes if shuffle is on and changes back to its initial once shuffle is turned off.
-* [x] User can only input answer for certain questions with one-two word answer
+* [x] User can only input answers for certain questions with one-two word answer
 
 ## Video Walkthrough
 
