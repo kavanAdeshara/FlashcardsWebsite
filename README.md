@@ -4,7 +4,7 @@ Submitted by: **Kavan Adeshara**
 
 This web app: **Java Interview Flashcards**
 
-Time spent: **4** hours spent in total
+Time spent: **10** hours spent in total
 
 # Part 1
 
