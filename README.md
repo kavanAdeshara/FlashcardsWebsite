@@ -1,4 +1,4 @@
-# Web Development Project 2 - *Java Interview Flashcards*
+# Web Development Project 2-3 : *Java Interview Flashcards*
 
 Submitted by: **Kavan Adeshara**
 
