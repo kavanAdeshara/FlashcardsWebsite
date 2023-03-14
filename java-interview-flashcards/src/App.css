@@ -3,8 +3,8 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  font-family: 'Courier New', Courier, monospace;
-  color: white;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  color: black;
 }
 
 body {
@@ -15,8 +15,7 @@ body {
 }
 
 .flashcard-container {
-  align-items: center;
-  padding-top: 3em;
+  margin-top: 1em;
 }
 
 .flashcard {
@@ -25,12 +24,12 @@ body {
 }
 
 .flashcard h2 {
-  padding-top: 2em;
+  padding-top: 1.5em;
   padding-bottom: 10em;
   padding-left: 3em;
   padding-right: 3em;
   opacity: 1;
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  color:white;
 }
 
 .flashcard-inner {
@@ -68,21 +67,43 @@ body {
   transform: rotateX(180deg);
 }
 
-.next-button {
-  margin-top: 2em;
-}
-
 button {
   font-family: inherit;
   cursor: pointer;
   padding: 2%;
   font-size: 1.3rem;
   border-radius: 25px;
-  background-color: rgba(227, 17, 160, 0.5);
+  background-color: blueviolet;
   color: white;
+  margin-right: 1.3em;
 }
 
+.buttons-container {
+  display: flex;
+  margin-top: 1em;
+}
 
+input {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  height: 2em;
+  width: 15em;
+  border-radius: 25px;
+  font-size: 1.3rem;
+  padding-left: 1em;
+  margin: 0.5em;
+}
 
+.input-container {
+  display: flex;
+}
 
+.submit-button {
+  margin-top: 0.5em;
+  padding: 1.2%;
+  height: fit-content;
+  width: fit-content;
+}
 
+.previous-button {
+  margin-left: 5.5em;
+}
